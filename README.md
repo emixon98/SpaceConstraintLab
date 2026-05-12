@@ -32,9 +32,9 @@ void revArr(vector<int>& arr){
 ```
 
 ### Task 4: Fill in the table to describe the efficiency of the three functions that multiply an arrays elements by 2
-##### Version 1: Time Complexity: O(n) 
+##### Version 1: Time Complexity: O(n) (one for loop)
 ##### Version 1: Space Complexity: O(n) - We create an array newArray of n size
-##### Version 2: Time Complexity: O(n) 
+##### Version 2: Time Complexity: O(n) (one for loop)
 ##### Version 2: Space Complexity: O(1) - we modify the original array and create no new memory
-##### Version 3: Time Complexity: O(n) 
+##### Version 3: Time Complexity: O(n)  (the function recursively calls itself once per element, resulting in n total calls, equivalent to iterating through the array)
 ##### Version 3: Space Complexity: O(n) - each recursion adds a call to the stack which is an allocation in memory
