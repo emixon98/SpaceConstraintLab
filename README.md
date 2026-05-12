@@ -2,7 +2,7 @@
 Lab for CISC 187 on space complextiy
 ### Task 1: Decrible the "Word Builder" Algorithm in terms of Big O space complexity
 
-This function is creating an array called collection, in which we iterate through all elements of an array and attempt to find combinations in which two elements are not the same. In this case the space complexity would in worst case each element has no other repeat cases which would lead to a pairing with each other element but itself or (n * (n-1)) cases providing an O(n^2) space complexity.
+This function is creating an array called collection, in which we iterate through all elements of an array and attempt to find combinations in which two elements are not the same. In this case the space complexity would in worst case assume that each element has no other repeat cases which would lead to a pairing with each other element but itself or (n * (n-1)) cases providing an O(n^2) space complexity.
 
 ### Task 2: Describe the reversed array function in terms of Big O space complexity
 
